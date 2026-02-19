@@ -54,6 +54,7 @@ body{
 footer{
     background-color: rgb(202, 228, 245); /* Color de fondo */
     padding: 10px; /* Espacio interno */
+    text-align: center; /* Centra el texto */
 }
 
 .boton-agendar{
@@ -65,4 +66,8 @@ footer{
 
 h6,h2{
     font-family: 'Times New Roman', Times, serif; /* Fuente para h6 y h2 */
+}
+
+h6{
+    font-size: medium; /* Tamaño de fuente para h6 */
 }
