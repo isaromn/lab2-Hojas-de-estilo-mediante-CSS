@@ -1,0 +1,68 @@
+h1{
+    text-align: center; /* Centra el texto del h1 */
+    font-size: larger; /* Aumenta el tamaño del texto */
+    font-family: 'Times New Roman', Times, serif; /* Define la fuente */
+    color:rgb(34, 61, 62); /* Color del texto */
+}
+
+#logo-clinica{
+    width: 50px; /* Ancho del logo */
+    height: 50px; /* Alto del logo */
+    margin-top: 5px; /* Espacio superior */
+}
+
+.header-content{
+    display: grid; /* Usa diseño tipo grid */
+    grid-template-columns: 10% 90%; /* Divide en 2 columnas (10% y 90%) */
+    margin-bottom: 20px; /* Espacio inferior */
+    background-color: rgb(186, 227, 255); /* Color de fondo */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100%; /* Ocupa todo el alto disponible */
+}
+
+.grid-container{
+    display: grid; /* Activa grid */
+    grid-template-columns: 50% 50%; /* 2 columnas iguales */
+    gap: 2px; /* Espacio entre elementos */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+h2{
+    text-align: center; /* Centra el texto */
+}
+
+.medicosImagenes{
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Alto de la imagen */
+    display: block; /* Permite centrar con margin */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.grid-item{
+    background-color: rgb(186, 227, 255); /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 5px; /* Espacio interno */
+    margin: 5px; /* Espacio externo */
+    text-align: center; /* Centra el texto */
+}
+
+body{
+    margin: 0; /* Quita margen por defecto */
+    padding: 0; /* Quita padding por defecto */
+}
+
+footer{
+    background-color: rgb(202, 228, 245); /* Color de fondo */
+    padding: 10px; /* Espacio interno */
+}
+
+.boton-agendar{
+    border: gray solid 1px; /* Borde gris */
+    padding: 10px 20px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar encima */
+}
+
+h6,h2{
+    font-family: 'Times New Roman', Times, serif; /* Fuente para h6 y h2 */
+}
