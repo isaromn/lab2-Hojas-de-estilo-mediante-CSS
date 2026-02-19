@@ -54,7 +54,7 @@ body{
 footer{
     background-color: rgb(202, 228, 245); /* Color de fondo */
     padding: 10px; /* Espacio interno */
-    text-align: center; /* Centra el texto */
+    text-align: center;/* Centra el texto */
 }
 
 .boton-agendar{
